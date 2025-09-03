@@ -1,0 +1,31 @@
+{
+  "name": "materiales-festival-de-musica",
+  "version": "1.0.0",
+  "description": "Practicando nmp y SASS",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pshepu/Festival-de-musica.git"
+  },
+  "author": "Pshepu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pshepu/Festival-de-musica/issues"
+  },
+  "homepage": "https://github.com/Pshepu/Festival-de-musica#readme",
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.92.0"
+  }
+}
